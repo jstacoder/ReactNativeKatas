@@ -1,6 +1,6 @@
-import {
-  AppRegistry,
-} from 'react-native';
+import Expo from 'expo'
 
 import Katas from './src/katas'
-AppRegistry.registerComponent('ReactNativeKatas', () => Katas)
+
+Expo.registerRootComponent(Katas)
+
